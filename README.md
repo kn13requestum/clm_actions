@@ -3,12 +3,16 @@ Using the CLM GPT2 model to predict boosters usage and churn moment from partial
 Single player gameplay history actions are described by tokens.
 Tokens example: start, win,  boostSample1,  lose, boostSample2, churn, etc.
 
-Results
+# Results
 
 Tokens seqences restoration
 
-![[Pasted image graphs.png]]
+![Img](https://github.com/kn13requestum/clm_actions/blob/main/graphs.png)
+
 Blue - train model inference
-Orange - validation model inference  
+
+Orange - validation model inference 
+
 Green - train data
+
 Red - validation data
